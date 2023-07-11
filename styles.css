@@ -8,7 +8,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: center;
     height: 100vh;
     align-items: center;
@@ -16,9 +16,9 @@
 }
 
 .counter {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     transform: translateY(-50%);
     margin: 10px;
     align-items: center;
@@ -31,14 +31,25 @@
     font-size: 50px;
 }
 
-.twitter{
-    color:lightblue
+.twitter {
+    color: rgb(29 161 242)
 }
 
-.youtube{
-    color:red;
+.youtube {
+    color: rgb(255,0,0);
 }
 
-.facebook{
-    color: blue;
+.facebook {
+    color: rgb(66, 103, 178);
+}
+
+.count {
+    font-size: 40px;
+}
+
+
+@media(max-width:480px){
+    .container {
+        flex-direction: column;
+    }
 }
