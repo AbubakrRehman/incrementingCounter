@@ -1,7 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    transform: translateY(-50%);
+    margin: 10px;
+    align-items: center;
+    min-width: 150px;
+    font-size: 17px;
+    /* max-width: 150px; */
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.twitter{
+    color:lightblue
+}
+
+.youtube{
+    color:red;
+}
+
+.facebook{
+    color: blue;
+}
